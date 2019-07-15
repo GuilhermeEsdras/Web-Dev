@@ -1,0 +1,40 @@
+body {
+    background: rgb(81, 168, 250);
+    font: normal 12pt Arial;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: white;
+    border-radius: 8px;
+    padding: 12px;
+    width: 400px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.651);
+}
+
+div {
+    text-align: center;
+    padding: 5px;
+}
+
+div#msg h2 {
+    margin-top: 0px;
+    margin-bottom: 1px;
+}
+
+div#msg h5 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font: normal 10pt Arial;
+    font-style: italic;
+    text-align: center;
+    color: white;
+}
