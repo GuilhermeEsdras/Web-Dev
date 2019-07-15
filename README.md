@@ -64,8 +64,8 @@ Estes são os materiais usados por mim para desenvolver meus projetos Web.
 - [Adobe InDesign ](https://www.adobe.com/br/products/indesign.html)
 - [Adobe Spark](https://www.adobe.com/br/products/spark.html)
 ### Mobile e Web Design
-- [Adove XD](https://www.adobe.com/br/products/xd.html)
-- [Adove DreamWeaver](https://www.adobe.com/br/products/dreamweaver.html)
+- [Adobe XD](https://www.adobe.com/br/products/xd.html)
+- [Adobe DreamWeaver](https://www.adobe.com/br/products/dreamweaver.html)
 <!-- -->
 
 <!-- Autor/Contato -->
