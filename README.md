@@ -2,6 +2,14 @@
 # Web Dev
 <!-- -->
 
+<!-- Badges -->
+<p align="center">
+    <img src="https://img.shields.io/github/languages/count/GuilhermeEsdras/Web-Dev.svg?color=D80E9B">
+    <img src="https://img.shields.io/github/languages/top/GuilhermeEsdras/Web-Dev.svg?color=FFD611&label=JavaScript&logo=JavaScript">
+    <img src="https://img.shields.io/github/license/GuilhermeEsdras/Web-Dev.svg">
+</p>
+<!-- -->
+
 <!-- Subtítulo -->
 <h2 align="center">My Web Development Repository! =)</h2>
 <!-- -->
@@ -70,7 +78,8 @@ Estes são os materiais usados por mim para desenvolver meus projetos Web.
 
 <!-- Autor/Contato -->
 ## Autor
-* **Guilherme Esdras (guilherme.esdras@outlook.com)** - [GitHub Page](https://github.com/GuilhermeEsdras)
+* **Guilherme Esdras (guilherme.esdras@outlook.com)** - [GitHub](https://github.com/GuilhermeEsdras) <br/>
+  <img src="https://img.shields.io/github/followers/GuilhermeEsdras.svg?label=Segue%20%3A3&style=social">
 <!-- -->
 
 <!-- Licença -->
