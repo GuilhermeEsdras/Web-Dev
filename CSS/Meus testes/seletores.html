@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Entendendo Seletores</title>
+    <style>
+        * {
+            margin: 0px;
+        }
+
+        h1 + p {
+            color: red;
+        }
+
+        .animais * {
+            color: green;
+        }
+
+        ul > li {
+            font-weight: bold;
+        }
+
+        h1 ~ div {
+            color: cornflowerblue;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Título qualquer</h1>
+        <p>Primeiro parágrafo</p>
+        <p>Segundo parágrafo</p>
+    </div>
+
+    <ul class="animais">
+        <p>blabla</p>
+
+        <li>Elefante</li>
+        <ol>
+            <li>Cachorro</li>
+            <li>Gato</li>
+        </ol>
+    </ul>
+
+    <h1>Alimentos</h1>
+    <div>Feijão</div>
+    <div>Arroz</div>
+    <section class="frutas">
+        <div>banana</div>
+    </section>
+</body>
+</html>
