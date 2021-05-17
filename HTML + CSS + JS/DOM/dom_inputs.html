@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <input 
+        type="text"
+        placeholder="Digite um caracter"
+        onkeyup="distribuiCaracter()"
+        onkeyup="apaga()"
+        id="entrada"
+    />
+    <hr>
+    <span>Letras:</span>
+    <input 
+        type="text"
+        id="letras"
+        disabled
+    />
+    <span>Numeros:</span>
+    <input 
+        type="text"
+        id="numeros"
+        disabled
+    />
+
+    <script>
+       
+       function distribuiCaracter() {
+            var caracter = document.getElementById('entrada').value;
+            document.getElementById('entrada').value = '';
+
+            // limpar os espaços em branco nas extremidades da string
+            caracter.trim();
+            
+            if (parseInt(caracter) >= 0 && parseInt(caracter) <= 9) 
+                document.getElementById('numeros').value += caracter;
+            else
+                document.getElementById('letras').value += caracter;
+       }
+       
+    </script>
+</body>
+</html>
