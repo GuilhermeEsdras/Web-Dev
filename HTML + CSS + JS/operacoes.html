@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Operações</title>
+</head>
+<body>
+    <h1>Teste de Contador</h1>
+    <h3>Contador: <span id="cont">0</span></h3>
+    <button id="add">Adicionar</button> <button id="sub">Subtrair</button>
+    
+    <script>
+        var c = 0;
+        function operacao(op) {
+            var spanCount = document.getElementById('cont');
+
+            if (op == 'add') c++;
+            else if (op == 'sub') c--;
+
+            spanCount.innerHTML = `${c}`;
+        }
+
+        document.getElementById('add').addEventListener('click', _ => operacao('add'));
+        document.getElementById('sub').addEventListener('click', _ => operacao('sub'));
+        console.log('%c style log', 'color: red; font-size: 30px;');
+    </script>
+</body>
+</html>
