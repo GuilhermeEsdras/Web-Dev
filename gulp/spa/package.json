@@ -8,7 +8,7 @@
     "build": "gulp --production"
   },
   "keywords": [],
-  "author": "Cod3r",
+  "author": "Guilherme Esdras",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "6.26.3",
