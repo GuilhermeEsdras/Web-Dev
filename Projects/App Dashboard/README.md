@@ -4,7 +4,8 @@ Um app de painel básico de consulta e requisição de informações de um banco
 
 ## Testes
 
-Como esta é uma aplicação simples e apenas para fins didáticos, tudo foi feito de forma manual e o mais simples possível, mas caso queira testar, eis os passos.
+Como esta é uma aplicação simples e apenas para fins didáticos, tudo foi feito de forma manual e o mais simples possível.
+Mas caso queira testar, eis os passos:
 
 - Primeiro é preciso ter o XAMPP instalado;
 - Abra o XAMPP, inicie o Servidor Apache e o MySQL e logo após abra o PHPMyAdmin (```http://localhost/phpmyadmin/```);
